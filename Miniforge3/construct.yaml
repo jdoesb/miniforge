@@ -41,7 +41,9 @@ specs:
   - conda-libmamba-solver {{ conda_libmamba_solver_version }}
   - pip
   - miniforge_console_shortcut 1.*  # [win]
-
+  - spyder 6.*
+  - pyqt 5.*
+  
 virtual_specs:
   - __glibc >=2.17 # [linux]
   - __osx >=10.13 # [osx]
